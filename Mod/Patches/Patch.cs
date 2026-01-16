@@ -1,7 +1,7 @@
 using System.Reflection;
 using HarmonyLib;
 
-namespace Patch.Patches;
+namespace Mod.Patches;
 
 [HarmonyPatch]
 internal static class Patch
