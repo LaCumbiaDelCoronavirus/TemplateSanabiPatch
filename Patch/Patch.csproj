@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Lib.Harmony" Version="2.4.2"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="Robust.Client">
+            <HintPath>../Dlls/Robust.Client.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+
+        <Reference Include="Robust.Shared">
+            <HintPath>../Dlls/Robust.Shared.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+
+        <Reference Include="Content.Client">
+            <HintPath>../Dlls/Content.Client.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+
+        <Reference Include="Content.Shared">
+            <HintPath>../Dlls/Content.Shared.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+</Project>
